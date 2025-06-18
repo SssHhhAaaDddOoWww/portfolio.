@@ -2,7 +2,6 @@ import Clock from "@/components/ShowTime";
 import TypedText from "@/components/Typedtext";
 import { Badge } from "@/components/ui/badge";
 
-import { Github, LucideGithub, TwitterIcon } from "lucide-react";
 
 export default function about(){
       return <div className="p-2 mt-[20px]">

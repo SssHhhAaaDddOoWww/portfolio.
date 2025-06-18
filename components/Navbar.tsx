@@ -1,6 +1,5 @@
 import Link from "next/link"
 import { ModeToggle } from "./Mode-toggle"
-import Clock from "./ShowTime"
 
 export default function Navbar(){
  return  <div className="flex justify-center items-center gap-2 ">
