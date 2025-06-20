@@ -12,7 +12,7 @@ export default function about(){
          </div>
          <div className="mt-[30px]">
             <p className="text-xl font-bold border-b-2  border-foreground p-1 ">Tech Stack  </p>
-          <div className="mt-[20px] bg-accent p-3 rounded-[10px] text-wrap ">
+          <div className="mt-[20px] bg-accent p-3 rounded-[10px] flex flex-wrap ">
          <span className="border-b-2 border-foreground ">Frontend </span> 
          <Badge className="mx-[10px]">React</Badge>
          <Badge  className="mx-[10px]">Next js</Badge>
@@ -20,7 +20,7 @@ export default function about(){
          <Badge  className="mx-[10px]">Shadecn</Badge>
             
           </div>
-          <div className="mt-[20px] bg-accent p-3 rounded-[10px] text-wrap ">
+          <div className="mt-[20px] bg-accent p-3 rounded-[10px] flex flex-wrap ">
          <span className="border-b-2 border-foreground">Backend & DB </span> 
          <Badge className="mx-[10px]">Node JS</Badge>
          <Badge  className="mx-[10px]">Typescript</Badge>
